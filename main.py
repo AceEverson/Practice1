@@ -6,7 +6,7 @@
 # Write your code below this comment.
 number = input("Enter a whole number: ")
 phrase = input("Enter a phrase: ")
-result = int(number) * phrase
+number = int(number)
+result = phrase * number
 print(result)
-
-print("Hi")
+print("HI")
